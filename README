@@ -7,3 +7,13 @@
 % * express or implied, and with no claim as to its suitability for any
 % * purpose.
 
+Usage
+Inputs:
+X = matrix with n_x d_x-dimensional points, i.e. X has d_x rows and n_x columns  
+Y = matrix with n_y d_y-dimensional points, i.e. Y has d_y rows and n_y columns
+mu is the measure on X, i.e. a n_x by 1 dimensional matrix sum(mu) = 1
+nu is the measure on Y, i.e. a n_y by 1 dimensional matrix sum(nu) = 1
+relative error is the gap you would like to have e.g. 1e-4
+linearterm is an (optional) Wasserstein linear linear term 
+
+algorithm2distr(X,Y, mu,nu,relativeerror, scale,linearterm)
