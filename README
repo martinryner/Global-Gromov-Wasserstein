@@ -1,0 +1,9 @@
+%This is a code implementation of the work in
+% Ryner, Martin, Jan Kronqvist, and Johan Karlsson. 
+% "Globally solving the Gromov-Wasserstein problem for point clouds in low dimensional Euclidean spaces." 
+% Advances in Neural Information Processing Systems 36 (2023): 7930-7946.
+
+% * This software is provided "AS IS" with no warranty of any kind,
+% * express or implied, and with no claim as to its suitability for any
+% * purpose.
+
